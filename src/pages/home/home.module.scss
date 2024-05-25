@@ -1,0 +1,44 @@
+.cardManager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardManager button {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.cardManager button:hover {
+  background-color: darken(#1a1a1a, 10%);
+}
+
+.cardForm {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  input, textarea {
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 8px;
+  }
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}
