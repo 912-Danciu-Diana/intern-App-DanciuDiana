@@ -1,5 +1,3 @@
-# React Card Management App
-
 ## Overview
 This application is a simple React-based web application that allows users to manage a list of cards. Each card contains a title and a description. The app provides functionality to view all cards, add new cards, update existing cards, and delete cards.
 
