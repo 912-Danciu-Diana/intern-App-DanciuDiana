@@ -1,34 +1,24 @@
-# Getting Started with Create React App
+# React Card Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This application is a simple React-based web application that allows users to manage a list of cards. Each card contains a title and a description. The app provides functionality to view all cards, add new cards, update existing cards, and delete cards.
 
-## Available Scripts
+## Features
+- **View Cards**: All cards are displayed with their titles and descriptions.
+- **Add a Card**: Users can add a new card by entering a title and description into the provided fields and then submitting them.
+- **Update a Card**: Users can update the title and description of any existing card directly within the card's displayed input fields.
+- **Delete a Card**: Users can delete any card by clicking the 'Delete' button associated with that card.
+- **View Users**: Display a list of users fetched from an external API.
+- **Search users**: Search users based on gender.
 
-In the project directory, you can run:
 
-### `yarn start`
+## Setup and Running the Application
 
-Instructions:
+1. **Clone the Repository**
+   ```bash
+   git clone [repository-url]
+   cd [repository-name]
 
-Clone repository.
-Start working on tasks.
-When you feel you are ready, add the code into your version control system(ex. Github) within a repository named: intern-App-(yourname).
-Send it back to us within an email reply where you received the instructions.
-
-Mandatory tasks:
-
-1. The logo looks tiny on smaller devices.
-2. TEC theme is not displayed on the app bar instead a green color is seen.
-3. Users screen does not display any data.
-4. Load more button style is not working.
-5. Style issues are encountered on the page - style however you want.
-6. Additional data is not displayed upon using "Load more" button.
-7. Users are not filtered by gender and the list does not reset on change select.
-8. No loading state is displayed when accessing "Users" component.
-9. On home page user should be able to do the following actions with cards that contain 2 fields: Title and Description
-   - See all the cards already added
-   - Add a card
-   - Update a card
-   - Delete a card
-
-Bonus: Creativity can bring you points. Do whatever you want, anywhere in the app, let your imagination surprise us in a good way.
+2. **Start the Development Server**
+   ```bash
+   yarn start
