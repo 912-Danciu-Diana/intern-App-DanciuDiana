@@ -1,7 +1,7 @@
 ## Features
 - **View Cards**: All cards are displayed with their titles and descriptions.
 - **Add a Card**: Users can add a new card by entering a title and description into the provided fields and then submitting them.
-- **Update a Card**: Users can update the title and description of any existing card directly within the card's displayed input fields.
+- **Update a Card**: Users can update the title and description by clicking the 'Edit' button associated with that card.
 - **Delete a Card**: Users can delete any card by clicking the 'Delete' button associated with that card.
 - **View Users**: Display a list of users fetched from an external API.
 - **Search users**: Search users based on gender.
